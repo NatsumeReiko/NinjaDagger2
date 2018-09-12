@@ -7,5 +7,5 @@ import dagger.Provides
 class MoreInfoModule {
 
     @Provides
-    fun providesInfo(square: Int) = Info(square)
+    fun providesInfo() = Info()
 }
