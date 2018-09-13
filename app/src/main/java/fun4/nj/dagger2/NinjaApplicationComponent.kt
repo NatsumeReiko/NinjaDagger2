@@ -11,6 +11,7 @@ import javax.inject.Singleton
         modules = [
             AndroidSupportInjectionModule::class,
             ActivityBindingModule::class,
+            AppModule::class,
             ViewModelModule::class,
             MoreInfoModule::class])
 interface NinjaApplicationComponent : AndroidInjector<NinjaApplication> {
