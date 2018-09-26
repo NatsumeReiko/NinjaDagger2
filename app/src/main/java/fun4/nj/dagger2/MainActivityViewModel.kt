@@ -23,8 +23,4 @@ import javax.inject.Inject
  * Logic for determining which screen to send users to on app launch.
  */
 class MainActivityViewModel @Inject constructor(
-) : ViewModel() {
-
-
-}
-
+) : ViewModel()
